@@ -1,0 +1,88 @@
+.login {
+
+    /* 兼容老浏览器 */
+    background: #6da6be;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #6da6be, #4b859e, #6da6be);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #6da6be, #4b859e, #6da6be);
+
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+
+    &>.view {
+        width: 260px;
+        line-height: 1em;
+        display: inline-block;
+        background-color: white;
+        padding: 70px 20px;
+        border-radius: 5px;
+        vertical-align: middle;
+
+        &>h2 {
+            font-size: 20px;
+            padding-bottom: 20px;
+            text-align: left;
+        }
+
+        &>.item {
+
+            margin-top: 20px;
+
+            &>label {
+                font-size: 0;
+                display: inline-block;
+                width: 30px;
+                height: 20px;
+                vertical-align: middle;
+
+                &.icon1 {
+                    background-image: url('./image/icon1.png');
+                }
+
+                &.icon2 {
+                    background-image: url('./image/icon2.png');
+                }
+
+                background-repeat: no-repeat;
+                background-position: left center;
+            }
+
+            &>input {
+                border: none;
+                outline: none;
+                border-bottom: 1px solid rgb(190, 186, 186);
+                width: 190px;
+                font-size: 12px;
+                padding: 5px;
+            }
+
+            &.toRight {
+                text-align: right;
+                margin-top: 10px;
+
+                &>a {
+                    font-size: 12px;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &>button {
+            width: 90%;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            color: white;
+            background-color: rgb(7, 109, 150);
+            font-size: 14px;
+            line-height: 30px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}
