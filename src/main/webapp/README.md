@@ -10,7 +10,6 @@
 - [基础组件或指令：SproutUI](https://hai2007.github.io/SproutUI/#/nefbl)
 - [打包工具：EtcPack](https://etcpack.github.io/api/)
 - [Excel功能：Open-Web-Excel](https://github.com/hai2007/Open-Web-Excel)
-- [Word功能：Open-Web-Word](https://github.com/hai2007/Open-Web-Word)
 
 ## 如何使用？
 

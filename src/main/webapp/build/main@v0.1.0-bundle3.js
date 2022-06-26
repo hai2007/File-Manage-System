@@ -16,10 +16,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 __etcpack__scope_args__=window.__etcpack__getBundle('1');
 var Component=__etcpack__scope_args__.Component;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('38');
+__etcpack__scope_args__=window.__etcpack__getBundle('37');
 var style =__etcpack__scope_args__.default;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('39');
+__etcpack__scope_args__=window.__etcpack__getBundle('38');
 var template =__etcpack__scope_args__.default;
 
 
@@ -39,7 +39,7 @@ __etcpack__scope_bundle__.default=_class;
 /*************************** [bundle] ****************************/
 // Original file:./src/App/pages/Registry/index.scss
 /*****************************************************************/
-window.__etcpack__bundleSrc__['38']=function(){
+window.__etcpack__bundleSrc__['37']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= ""
@@ -50,7 +50,7 @@ window.__etcpack__bundleSrc__['38']=function(){
 /*************************** [bundle] ****************************/
 // Original file:./src/App/pages/Registry/index.html
 /*****************************************************************/
-window.__etcpack__bundleSrc__['39']=function(){
+window.__etcpack__bundleSrc__['38']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= "Registry\r\n"

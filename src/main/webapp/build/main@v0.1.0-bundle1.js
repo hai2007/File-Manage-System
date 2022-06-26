@@ -16,10 +16,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 __etcpack__scope_args__=window.__etcpack__getBundle('1');
 var Component=__etcpack__scope_args__.Component;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('34');
+__etcpack__scope_args__=window.__etcpack__getBundle('33');
 var style =__etcpack__scope_args__.default;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('35');
+__etcpack__scope_args__=window.__etcpack__getBundle('34');
 var template =__etcpack__scope_args__.default;
 
 
@@ -39,7 +39,7 @@ __etcpack__scope_bundle__.default=_class;
 /*************************** [bundle] ****************************/
 // Original file:./src/App/pages/Home/index.scss
 /*****************************************************************/
-window.__etcpack__bundleSrc__['34']=function(){
+window.__etcpack__bundleSrc__['33']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= ""
@@ -50,7 +50,7 @@ window.__etcpack__bundleSrc__['34']=function(){
 /*************************** [bundle] ****************************/
 // Original file:./src/App/pages/Home/index.html
 /*****************************************************************/
-window.__etcpack__bundleSrc__['35']=function(){
+window.__etcpack__bundleSrc__['34']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= "Home\r\n"

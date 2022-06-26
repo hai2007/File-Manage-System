@@ -13,8 +13,7 @@
     "@hai2007/tool": "^1.2.0",
     "@hai2007/xhr": "^0.1.2",
     "nefbl": "^0.2.6",
-    "open-web-excel": "^0.2.2",
-    "open-web-word": "^0.4.1",
+    "open-web-excel": "^0.5.0",
     "sprout-ui": "^0.2.2"
   },
   "devDependencies": {

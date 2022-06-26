@@ -2765,16 +2765,16 @@ __etcpack__scope_args__=window.__etcpack__getBundle('18');
 var AppComponent =__etcpack__scope_args__.default;
  // 指令
 
-__etcpack__scope_args__=window.__etcpack__getBundle('29');
+__etcpack__scope_args__=window.__etcpack__getBundle('28');
 var uiBind =__etcpack__scope_args__.default;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('30');
+__etcpack__scope_args__=window.__etcpack__getBundle('29');
 var uiModel =__etcpack__scope_args__.default;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('32');
+__etcpack__scope_args__=window.__etcpack__getBundle('31');
 var uiOn =__etcpack__scope_args__.default;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('33');
+__etcpack__scope_args__=window.__etcpack__getBundle('32');
 var uiLazy =__etcpack__scope_args__.default;
 
 
@@ -2954,9 +2954,6 @@ window.__etcpack__bundleSrc__['22']=function(){
   },
   "excel": function excel() {
     return window.__etcpack__getLazyBundle('./build/main@v0.1.0-bundle5.js','27');
-  },
-  "word": function word() {
-    return window.__etcpack__getLazyBundle('./build/main@v0.1.0-bundle6.js','28');
   }
 };
   
@@ -2966,7 +2963,7 @@ window.__etcpack__bundleSrc__['22']=function(){
 /*************************** [bundle] ****************************/
 // Original file:./node_modules/sprout-ui/nefbl/directive/ui-bind.ts
 /*****************************************************************/
-window.__etcpack__bundleSrc__['29']=function(){
+window.__etcpack__bundleSrc__['28']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var _dec, _class2;
@@ -3028,7 +3025,7 @@ __etcpack__scope_bundle__.default=_class;
 /*************************** [bundle] ****************************/
 // Original file:./node_modules/sprout-ui/nefbl/directive/ui-model.ts
 /*****************************************************************/
-window.__etcpack__bundleSrc__['30']=function(){
+window.__etcpack__bundleSrc__['29']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var _dec, _class2;
@@ -3043,7 +3040,7 @@ __etcpack__scope_args__=window.__etcpack__getBundle('1');
 var Directive=__etcpack__scope_args__.Directive;
 var setValue=__etcpack__scope_args__.setValue;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('31');
+__etcpack__scope_args__=window.__etcpack__getBundle('30');
 var xhtml =__etcpack__scope_args__.default;
 
 
@@ -3080,7 +3077,7 @@ __etcpack__scope_bundle__.default=_class;
 /*************************** [bundle] ****************************/
 // Original file:./node_modules/@hai2007/browser/xhtml.js
 /*****************************************************************/
-window.__etcpack__bundleSrc__['31']=function(){
+window.__etcpack__bundleSrc__['30']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     /*!
@@ -3395,7 +3392,7 @@ __etcpack__scope_bundle__.default= {
 /*************************** [bundle] ****************************/
 // Original file:./node_modules/sprout-ui/nefbl/directive/ui-on.ts
 /*****************************************************************/
-window.__etcpack__bundleSrc__['32']=function(){
+window.__etcpack__bundleSrc__['31']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var _dec, _class2;
@@ -3409,7 +3406,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 __etcpack__scope_args__=window.__etcpack__getBundle('1');
 var Directive=__etcpack__scope_args__.Directive;
 
-__etcpack__scope_args__=window.__etcpack__getBundle('31');
+__etcpack__scope_args__=window.__etcpack__getBundle('30');
 var xhtml =__etcpack__scope_args__.default;
 
 /**
@@ -3464,7 +3461,7 @@ __etcpack__scope_bundle__.default=_class;
 /*************************** [bundle] ****************************/
 // Original file:./node_modules/sprout-ui/nefbl/directive/ui-lazy.ts
 /*****************************************************************/
-window.__etcpack__bundleSrc__['33']=function(){
+window.__etcpack__bundleSrc__['32']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var _dec, _class2;
