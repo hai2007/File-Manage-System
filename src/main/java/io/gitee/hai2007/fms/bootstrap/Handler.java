@@ -1,17 +1,20 @@
 package io.gitee.hai2007.fms.bootstrap;
 
+import io.gitee.hai2007.http.Request;
+import io.gitee.hai2007.http.Respond;
+
 public class Handler implements io.gitee.hai2007.servicer.Handler {
 
 	// 处理请求
-	public String doResolve(String request) {
+	public String doResolve(String req) {
 
-		System.out.println("[请求内容]"+request);
+		Request request = new Request(req);
+		Respond respond = new Respond();
 
-		String lineSeparator = System.getProperty("line.separator", "\n");
+		respond.setHeader("Content-Type", "text/html; charset=utf-8");
+		respond.setHeader("Access-Control-Allow-Origin", "*");
 
-		return "HTTP/1.1 200 OK" + lineSeparator + "Content-Type: text/html; charset=utf-8" + lineSeparator
-				+ "Access-Control-Allow-Origin: *" + lineSeparator + lineSeparator + "<h1>[来自服务器的数据]你好呀！</h1>"
-				+ lineSeparator;
+		return respond.getValue("<div>服务器返回的内容"+request+"</div>");
 	}
 
 }

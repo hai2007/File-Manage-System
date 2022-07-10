@@ -12,7 +12,7 @@
         <dependency>
             <groupId>io.gitee.hai2007.servicer</groupId>
             <artifactId>servicer</artifactId>
-            <version>1.0.1</version>
+            <version>1.5.3</version>
         </dependency>
     </dependencies>
 
